@@ -1,0 +1,13 @@
+# pokeimgcrawler
+Bulbapedia Image Scraper
+Requirements: python + scrapy (it may need additional libraries)
+
+## How do I run this?
+Clone the repo and run scrapy crawl pokeimgcrawler -o results.json
+You can change the results file to whatever name/format you want
+After crawling, there will be a imgs/full folder containing your downloaded images.
+
+## Adjusting the range of images to download 
+The tool doesn't accept parameters yet so you have to go into imagecrawler.py and change
+the starting url to whatever pokemon you want to begin with and the stop number to the number
+of whichever pokemon you want the crawler to stop at.
